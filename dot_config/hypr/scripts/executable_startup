@@ -1,0 +1,17 @@
+#!/bin/bash
+
+dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP &
+sleep 2
+hyprctl setcursor Bibata-Modern-Ice 24 &
+/home/tilman/.config/hypr/scripts/launch-portals &
+swww init &
+/home/tilman/.config/hypr/scripts/set-wallpapers &
+waybar &
+sleep 2 
+swayidle -w &
+udiskie &
+sleep 2
+/usr/lib/polkit-kde-authentication-agent-1
+sleep 2
+/home/tilman/.config/hypr/scripts/set_wallpapers_on_new_monitors.py & 
+#spotify --minimized

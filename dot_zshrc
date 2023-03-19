@@ -1,0 +1,7 @@
+# Created by newuser for 5.9
+source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH=$PATH:/home/tilman/.cargo/bin
+export PATH=$PATH:/home/tilman/bin
+eval "$(starship init zsh)"

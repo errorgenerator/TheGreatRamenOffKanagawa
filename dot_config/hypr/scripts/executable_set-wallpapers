@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sleep 2
+swww img /home/tilman/Pictures/kanagawa_bowl.jpg --no-resize
